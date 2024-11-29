@@ -1,8 +1,8 @@
-baseURL = "https://www.example.org/"
+baseURL = "https://paginaprueba1viernes.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Hugo Apéro"
-author = "Alison Hill"
+title = "R Ladies Morelia"
+author = "Haydeé Peruyero"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 #disqusShortname = "" # see params.comments to use utterances or giscus instead of Disqus
@@ -28,9 +28,9 @@ enableEmoji = true
     style = "github"
     
 [params]
-  orgName = "RStudio"
-  orgLocal = "Anywhere"
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  orgName = "Haydeé"
+  orgLocal = "Haydeé"
+  description = "Una página de prueba de RLadies Morelia"
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
   mainSections = ["blog", "project", "talk"]
@@ -41,21 +41,20 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  sharing_image = "/img/papillons.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  twitter = "rladiesmorelia"
   
   # use a built-in color theme
   # one of: earth / forest / grayscale / magma / paper / peach / plum /
   #         poppy / primer / sky / violet / water 
-  theme = "sky"
-  
+  theme = ""
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
   # the custom scss file must be in the assets/ folder
   # add the filename name here, without extension
   # to use hex colors instead of named tachyons colors, include "hex" in filename
-  custom_theme = "" 
+  custom_theme = "hex-colors" 
   
   # use an embedded font-family
   # serif options: Fraunces / EB Garamond / Bitter
@@ -66,7 +65,7 @@ enableEmoji = true
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
-  headingFontFamily = "sans-serif"
+  headingFontFamily = "serif"
 
   # Specify use of utterances, giscus or disqus
   comments = "utterances"
@@ -105,31 +104,16 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
-  [[params.social]]
-      icon      = "bluesky" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://bsky.app/"
+      url       = "https://github.com/Pruebapagina1/preuba1"
   [[params.social]]
       icon      = "instagram" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://www.instagram.com/explore/tags/apero/"
   [[params.social]]
-      icon      = "x-twitter" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
-  [[params.social]]
-      icon      = "impactstory" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "https://impactstory.org/u/0000-0002-8082-1890"
-  [[params.social]]
       icon      = "orcid" # icon name without the 'fa-'
-      icon_pack = "ai"
+      icon_pack = "fab"
       url       = "http://orcid.org/0000-0002-8082-1890"
-  [[params.social]]
-      icon      = "rss" # icon name without the 'fa-'
-      icon_pack = "fas"
-      url       = "/blog/index.xml"
+  
 
 [taxonomies]
   category = "categories"
@@ -180,12 +164,7 @@ enableEmoji = true
     title = "Contact form"
     url = "/contact/"
     weight = 2
-  [[menu.footer]]
-    name = "Contributors"
-    title = "Contributors"
-    url = "/contributors/"
-    weight = 3
-
+  
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
   [privacy.disqus]
