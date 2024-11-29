@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on R Ladies Morelia</title>
+    <link>http://localhost:4321/tags/blog/</link>
+    <description>Recent content in Blog on R Ladies Morelia</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Título de la primera entrada del blog</title>
+      <link>http://localhost:4321/blog/primer_entrada/</link>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/primer_entrada/</guid>
+      <description>&lt;h1 id=&#34;título&#34;&gt;Título&#xA;  &lt;a href=&#34;#t%c3%adtulo&#34;&gt;&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Insertar imagen de muestra&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;1.jpg&#34; alt=&#34;Imagen de muestra&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
